@@ -1,0 +1,339 @@
+<resources>
+    <string name="app_name">GetReady</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    //Questions, Answers and Explanations for Average
+
+    <string name="one">1) What is the average of x, 2x, and 6?</string>
+    <string name="oneans">Answer: x+2</string>
+    <string name="oneex">Explanation:\nBy the definition of an average, we get:\n=((x+2x+6)/3\n=(3x+6)/3\n=3(x+2)/3\n=x+2\nHence, the answer is x+2
+ </string>
+
+    <string name="two">2) A family consists of two grandparents, two parents and three grandchildren.
+        The average age of the grandparents is 67 years, that of the parents is 35
+        years and that of the grandchildren is 6 years. What is the average age of the family?</string>
+    <string name="twoans">Answer: 31(5/7) years</string>
+    <string name="twoex">Explanation:\nRequired average\n=(67 * 2 + 35 * 2 + 6 * 3)/2+2+3\n=(134+70+18)/7\n=222/7\n31(5/7) years.</string>
+
+    <string name="three">3) The average score of a cricketer for ten matches is 38.9 runs. If the average for
+        the first six matches is 42, then find the average for the last four matches.</string>
+    <string name="threeans">Answer: 34.25</string>
+    <string name="threeex">Explanation:\nTotal sum of last 4 matches\n=(10*38.9)–(6*42)=(10*38.9)–(6*42)\n=389–252=137\n=389–252=137\nAverage\n=(137/4)\n=34.25</string>
+
+    <string name="four">4) There were 35 students in a hostel. Due to the admission of 7 new students the expenses
+        of  the  mess  were  increased  by  Rs.42  per  day  while  the  average  expenditure  per
+        head diminished by Re 1. What was the original expenditure of the mess?</string>
+    <string name="fourans">Answer: 420</string>
+    <string name="fourex">Explanation:\nLet the original average expenditure be Rs.x then,\n42(x−1)−35x=42\n7x=84\nx=12\nTherefore original expenditure\nRs. (35*12)\n=Rs. 420</string>
+
+    <string name="five">5) Virat  obtained  76,  65,  82,  67  and  85  marks  (out  of  100)  in  English,
+        mathematics, physics, chemistry and biology. What are his average marks?</string>
+    <string name="fiveans">Answer: 75</string>
+    <string name="fiveex">Explanation:\nAverage\n(76+65+82+67+85)/5\n375/5\n75</string>
+
+    <string name="six">6) The average temperature on Wednesday, Thursday and Friday was 25Celsius.
+        The average temperature on Thursday, Friday and Saturday was 24Celsius.
+        If the temperature on Saturday was 27Celsius, what was the temperature on Wednesday?</string>
+    <string name="sixans">Answer: 30</string>
+    <string name="sixex">Explanation:\nTotal temperature on Wednesday, Thursday and Friday was 25×3=75degree\n
+Total temperature on Thursday, Friday and Saturday was 24×3=72degree\n
+Hence, difference between the temperature on Wednesday and Saturday= 3degree\n
+If Saturday temperature =27degree, then Wednesday's temperature =27degree+3degree=30degree\n
+ </string>
+
+    <string name="seven">7) The average age of a family of 5 members is 20 years.
+        If the age of the youngest member be 10 years then what was the average age of the family
+        at the time of the birth of the youngest member?</string>
+    <string name="sevenans">Answer: 12.5</string>
+    <string name="sevenex">Explanation:\nAt present the total age of the family = 5×20=1005×20=100\nThe total age of the family at the time of the birth of the youngest member:\n[100 - 10 - (10*4)] = 50\n[100- age of youngest – 10 years * remainingfamily memebers]=50\nTherefore, average age of the family at the time of birth of the youngest member :\n50/4\n=12.5\n</string>
+
+    <string name="eight">8) Average cost of 5 apples and 4 mangoes is Rs. 36. The average cost of 7 apples and 8 mangoes is Rs. 48. Find the total cost of 24 apples and 24 mangoes.</string>
+    <string name="eightans">Answer: 2088</string>
+    <string name="eightex">Explanation:\nAverage cost of 5 apples and 4 mangoes = Rs. 36\nTotal cost = 36×9=324\nAverage cost of 7 apples and 8 mangoes = 48\nTotal cost = 48*15=720\nTotal cost of 12 apples and 12 mangoes\n=324+720=1044\nTherefore, cost of 24 apples and 24 mangoes = 1044×2=2088</string>
+
+    <string name="nine">9) The average salary of all the workers in a workshop is Rs.8000. The average salary of 7 technicians is Rs.12000 and the average salary of the rest is Rs.6000. The total number of workers in the workshop is:</string>
+    <string name="nineans">Answer: 21</string>
+    <string name="nineex">Let the total number of workers in the workshop = x\nGiven Average of all workers\n=8000 --> 8000/x\nAverage of seven members\n=12000-->7*12000=84000\nAverage of remaining workers\n=6000-->6000(x-7)\n-->6000x-42000\nfind out the total number of workers\n8000x=84000+6000x-42000\n2000x=42000\nx=21\nTherefore the total number of workers in the workshop is=21</string>
+
+    <string name="ten">10) The average price of 10 books is Rs.12 while the average price of 8 of these books is Rs.11.75. Of the remaining two books, if the price of one book is 60% more than the price of the other, what is the price of each of these two books?</string>
+    <string name="tenans">Answer: Rs.10, Rs. 16</string>
+    <string name="tenex">Total cost of 10 books = Rs.120\nTotal cost of 8 books = Rs.94\n-->The cost of 2 books = Rs. 26\nLet the price of each book be x and y.\n⇒ x + y = 26 -------(1)\nGiven that the price of 1 book is 60% more than the other price\n(160y/100)+y=26\ny=26*100/260\ny=10\nSubstituting Y=10 in(1) we get\nx+10=26\nx=16</string>
+
+    <string name="eleven">11) The average monthly salary of 12 workers and 3 managers in a factory was Rs. 600. When one of the manager whose salary was Rs. 720, was replaced with a new manager, then the average salary of the team went down to 580. What is the salary of the new manager?</string>
+    <string name="elevenans">Answer: 420</string>
+    <string name="elevenex">The total salary amount\n=15*600=9000\nThe salary of the exiting manager = 720.\nTherefore, the salary of 12 workers and the remaining 2 managers:\n=9000−720=8280\nWhen a new manager joins, the new average salary drops to Rs.580 for the total team of 15 of them.\nThe total salary for the 15 people i.e., 12 workers, 2 old managers and 1 new manager\n580*15=8700\nTherefore, the salary of the new manager is 9000−8700=300 less than that of the old manager who left the company, which is equal to\n720−300=420.</string>
+
+    <!--Twelve is in solvedaverage.xml file-->
+
+    <string name="twelve">12) A grocer has a sale of Rs 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs, 6500 ?</string>
+    <string name="twelveans">Answer: 4991</string>
+    <string name="twelveex">Explanation:\nTotal sale for 5 months\n = Rs. (6435 + 6927 + 6855 + 7230 + 6562)\n = Rs. 34009.\nRequired sale = Rs.[(6500 x 6) - 34009]\n= Rs. (39000 - 34009)\n= Rs.  4991. </string>
+
+    <string name="thirteen">13) A student finds the average of 10 positive integers. Each integer contains two digits. By mistake, the boy interchanges the digits of one number say ba for ab. Due to this, the average becomes 1.8 less than the previous one. What was the difference of the two digits a and b?</string>
+    <string name="thirteenans">Answer: 2</string>
+    <string name="thirteenex">Explanation:\nLet the original number be ab i.e., (10a+b).\nAfter interchanging the digits, the new number becomes ba i.e., (10b+a)\nThe question states that the average of 10 numbers has become 1.8 less than the original average.\nTherefore, the sum of the original 10 numbers will be 10×1.8 more than the sum of the 10 numbers with the digits interchanged.\ni.e., 10a+b=10b+a+18\n9a−9b=18\na−b  = 2</string>
+
+    <string name="fourteen">14) The average price of three items of furniture is Rs. 15000. If their prices are in the ratio 3:5:7, the price of the cheapest item is :</string>
+    <string name="fourteenans">Answer: 4.6 </string>
+    <string name="fourteenex">Explanation:\nSum of the remaining two numbers = (3.95 * 6) - [(3.4 * 2) + (3.85 * 2)]\n= 23.70 - (6.8 + 7.7)\n = 23.70 - 14.5 = 9.20.\nRequired average\n = (9.2 / 2) \n=  4.6. </string>
+
+    <string name="fifteen">15) The average weight of A,B and C is 84kg. id D joins the group, the average weight of the group becomes 80kg. If another man who weights is 3 kg. more than D replaces A, Then the average of B, C, D and E becomes 79kg. What is the weight of A? </string>
+    <string name="fifteenans">Answer: 75kg</string>
+    <string name="fifteenex">Explanation:\n Average weight of A, B and C is 84\nequation (1)\nA+B+C=84*3=252kg.\nthen D joins them and then their average weight becomes 80kg\nequation (2)\nA+B+C+D=80*4=320kg.\nthen subtract 2 from 1\n D=68kg.\n weight of E is 3kg more than D\nE=71kg.\n then average weight of B+C+D+E=79kg.\nequation (3)\nB+C+D+E=79*4=316kg.\nnow subtract eq(3) from(2)\n A-E=4kg.\nA-71=4kg\nA=75kg</string>
+
+    <string name="sixteen">16) The average wages of a worker during a fortnight comprising 15 consecutive working days was Rs.90 per day. During the first 7 days, his average wages was Rs.87/day and the average wages during the last 7 days was Rs.92 /day. What was his wage on the 8th day?</string>
+    <string name="sixteenans">Answer: 97</string>
+    <string name="sixteenex">Explanation:\nThe total wages earned during the 15 days that the worker worked :\n=15*90=Rs.1350.\nThe total wages earned during the first 7 days \n= 7*87 = Rs. 609.\nThe total wages earned during the last 7 days\n = 7×92 = Rs. 644\nTotal wages earned during the 15 days = wages during first 7 days + wage on 8th day + wages during the last 7 days.\n1350=609+ wage on 8th day +644wage on 8th day\n = 1350−609−644 = Rs. 97</string>
+
+    <string name="seventeen">17) Which one of the following numbers can be removed from the set S = {0, 2, 4, 5, 9} without changing the average of set S?</string>
+    <string name="seventeenans">Answer: 4</string>
+    <string name="seventeenex">Explanation:\nThe average of the elements in the original set S is:\n(0+2+4+5+9)/4\n=4</string>
+
+    <string name="eighteen">18) The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:</string>
+    <string name="eighteenans">Answer: 40 years</string>
+    <string name="eighteenex">Explanation:\n Sum of the present ages of husband, wife and child\n= (27 x 3 + 3 x 3) years \n= 90 years\n.Sum of the present ages of wife and child\n = (20 x 2 + 5 x 2) years \n= 50 years.\n Husband's present age \n= (90 - 50) years\n = 40 years.</string>
+
+    <string name="ninteen">19) Average of ten positive numbers is x. If each number is increased by 10%, then x :</string>
+    <string name="ninteenans">Answer: is increased by 10%</string>
+    <string name="ninteenex">Explanation:\n Let 10 numbers be x1,x2,x3…..x10\nAccording to question average of these 10 numbers is 10.\n⇒(x1+x2+x3+……..+x10)/10=x\nNow if each number is increased by 10%, then new average, say y,\ny=(1.1x1+1.1x2+1.1x3+………+1.1x10)/10\n⇒y=1.1×((x1+x2+x3+……..+x10)/10)\n⇒y=1.1x\n⇒y  is 10% increased.</string>
+
+
+    <string name="twenty">20) In 2011, the arithmetic mean of the annual incomes of Ramesh and Suresh was Rs. 3800. The arithmetic mean of the annual incomes of Suresh and Pratap was Rs. 4800, and the arithmetic mean of the annual incomes of Pratap and Ramesh was Rs. 5800. What is the arithmetic mean of the incomes of the three?</string>
+    <string name="twentyans">Answer: 4800</string>
+    <string name="twentyex">Explanation:\n Let a,b, and c be the annual incomes of Ramesh, Suresh, and Pratap, respectively.\nNow, we are given that \nThe  arithmetic  mean  of  the  annual  incomes  of  Ramesh  and  Suresh  was  Rs. 3800.\nHence,(a+b)/2=3800\nMultiplying by 2 yields a+b=2*3800=7600\nThe  arithmetic  mean  of  the  annual  incomes  of  Suresh  and  Pratap  was  Rs. 4800.\nHence,(b+c)/2=4800\nMultiplying by 2 yields b+c=2*4800=9600.\nThe  arithmetic  mean  of  the  annual  incomes  of  Pratap  and  Ramesh  was  Rs. 5800.\nHence, (C+A)/2=5800\nMultiplying by 2 yields c+a\n=2×5800=11,600\nSumming these three equations yields:\n(a+b)+(b+c)+(c+a)=7600+9600+11,600\n2a+2b+2c=28,800\na+b+c=14,400\nThe average of the incomes of the three equals the sum of the incomes divided by 3:\n=(a+b+c)/2\n14,400/3\n=4800</string>
+
+
+    <!--Questions on Area-->
+
+    <string name="area1">1) The ratio between the perimeter and the breadth of a rectangle is 5 : 1. If the area of the rectangle is 216 sq. cm, what is the length of the rectangle?</string>
+    <string name="area1ans">Answer: 18cm.</string>
+    <string name="area1ex">Explanation:\n2(l+b)/b=5/1\n-->2l+2b=5b\n3b=2l\nb=2/3l\nthe area=216cm^2\nl*b=216\nl*(2/3)l=216\nl^2=324\nl=18cm.</string>
+
+
+    <string name="area2">2) What is the least number of squares tiles required to pave the floor of a room 15 m 17 cm long and 9 m 2 cm broad?</string>
+    <string name="area2ans">Answer: 814</string>
+    <string name="area2ex">Explanation:\nLength of largest tile = H.C.F. of 1517 cm and 902 cm = 41 cm.\nArea of each tile = (41 * 41) cm^2\n-->Required number of tiles =((1517*902)/41*41)=814</string>
+
+
+    <string name="area3">3) A cone and a hemisphere have equal bases and equal volumes. Find the ratio of their heights.</string>
+    <string name="area3ans">Answer: 2:1</string>
+    <string name="area3ex">Explanation:\nVolume of the cone\n=(pi*(r^2)*h)/3\n=Volume of a hemisphere\n(2*pi*(r^3))/3\n⇒ Height of a hemisphere = Radius of its base\nBy the above formula, we can see that h:r=2:1</string>
+
+
+    <string name="area4">4) A cone and sphere have the same radius of 12 cm. Find the height of the cone if the cone and sphere have the same volume.</string>
+    <string name="area4ans">Answer: 48cm</string>
+    <string name="area4ex">Explanation:\nLet the height of the cone be h\nVolume of the cone\n=(1/3;)*pi*(12^2)*h\n=48pih cm^3\nVolume of the sphere\n=(4/3)*pi*r^3\n(4/3)*pi*(12^3)\n=2304cm^3\nSince the volumes are equal\n48pih=2304pi\nSolving for h\nh=(2304*pi)/48*pi\n=48cm.</string>
+
+
+    <string name="area5">5) Given five concentric squares. If the area of the circle inside the smallest square is 77 square units and the distance between the corresponding corners of consecutive squares is 1.5 units, find the difference in the areas of the outermost and innermost squares.</string>
+    <string name="area5ans">Answer: 240sq units</string>
+    <string name="area5ex">Explanation:\nHere we see that diameter of the circle is equal to the side of the innermost square that is,\npir^2=77\nr=3.5√2\n2r=7√2\nThen the diagonal of the square is 14 sq units.\nwhich means the diagonal of the fifth sqaure would be 14+12 units = 26.\nWhich means the side of the fifth square would be\n26/√2\nTherefore, the area of the fifth sqaure =338 sq units.\nArea of the first square =98 sq units.\nHence, the difference would be 240(=338−98) sq units.</string>
+
+
+    <string name="area6">6) The length, breadth and height of a room are in the ratio 3:2:1. If the breadth and height are halved while the length is doubled, then the total area of the four walls of the room will</string>
+    <string name="area6ans">Answer: decreased by 30%</string>
+    <string name="area6ex">Explanation:\nLet the original length, breadth and height of the room be 3x, 2x and x respectively.\nTherefore, the new length, breadth and height are 6x, x and x/2 respectively.\nArea of four walls = (2 * length * height) + (2 * breadth * height)\nOriginal area of four walls,\n=(2*3x*x)+(2*2x*x)\n=6x^2+4x^2=10x^2\nNew area of four walls,\n=(2*6x*x/2)+(2*x*x/2)\n=6x^2+x^2=7x^2\nTherefore, Area of wall decreases by\n=[(10x^2-7x^2)/10x^2]*100\n=30%</string>
+
+
+    <string name="area7">7) The external length, breadth and height of a closed box are 10 cm, 9 cm and 7 cm respectively. The total inner surface area of the box is 262 sq. cm. If the walls of the box are of uniform thickness t cm, then t equals</string>
+    <string name="area7ans">Answer: 1cm</string>
+    <string name="area7ex">Explanation:\nThe inner dimensions will be (10−2t),(9−2t) and (7−2t).\nThus the inner surface area will be\n=2*[(10−2t)(9−2t)+(10−2t)(7−2t)+(9−2t)(7−2t)]\n=262\nThis will boil down to a quadratic which can be solved and we will get two values of t.\nOne should not solve the quadratic but make use of the options.\nSubstituting t=1,  we  see  that  it  satisfies  the  above  equation.\nObviously (22/3) is not worth considering as it is greater than 7 and the thickness has to be less than the least\nouter dimension, i.e. 7. </string>
+
+
+    <string name="area8">8) S1and S2 are two  sets of parallel lines.  The number of lines in S1 is greater than the number of S2 They intersect at 12 points.  The number of parallelograms that S1 and S2  may form is :</string>
+    <string name="area8ans">Answer: 18 or 15</string>
+    <string name="area8ex">Explanation:\nLet there be m lines is S1 and n lines in S2.The lines will intersect in mn points.\nTherefore mn=12.\nCase (1), m=6,n=2 (or) m=3,n=4,\nThe number of parallelograms that can be formed is\n=6C2*2C2\n=15×1\n=15\nCase (2), m=4,n=3,\nThe number of parallelograms that can be formed is\n=4C2*3C2\n=6*3\n=18</string>
+
+
+    <string name="area9">9) A sphere of radius r is cut by a plane at a distance of h from its center, thereby breaking this sphere into two different pieces. The cumulative surface area of these two pieces is 25% more than that of the sphere.What is the value of h?</string>
+    <string name="area9ans">Answer: r/√2</string>
+    <string name="area9ex">Explanation:\nArea  =4πr^2\nCumulative area of the two pieces =25% more than the by square.\nArea of 2 pieces =1.25*pi*r^2=5*pi*r^2\nExtra area =pi*r^2\nExtra area =  area of two new circles that are now created circles.\nArea each new circle =(pi*r^2)/2\nLet radius of new circle be r1.\nNow,\n pi(r1^2)=(pi*(r^2))/2\nr1=r/√2\nNow, r1, h and r form a right angled triangle.\nh^2+r1^2=r^2\nh^2+(r/√2)^2=r2\nh=r/√2</string>
+
+    <string name="area10">10) A tank is 25 m long, 12 m wide and 6 m deep. The cost of plastering its walls and bottom at 75 paise per sq. m, is:</string>
+    <string name="area10ans">Answer: Rs. 558</string>
+    <string name="area10ex">Explanation:\nArea to be plastered\n= [2(l + b) * h] + (l * b)\n= {[2(25 + 12) x 6] + (25 x 12)} m2\n= (444 + 300) m2\n= 744 m2</string>
+
+
+    <!--Questions on Alligation or mixture-->
+
+
+    <string name="ali1">1) In what ratio must rice at Rs 9.30 per Kg be mixed with rice at Rs 10.80 per Kg so that the mixture be worth Rs 10 per Kg?</string>
+    <string name="ali1ans">Answer: 8:7</string>
+
+
+    <string name="ali2">2) In what ratio must wheat at Rs.3.20 per kg be mixed with wheat at Rs.2.90 per kg so that the mixture be worth Rs.3.08 per kg?</string>
+    <string name="ali2ans">Answer: 3:2</string>
+
+    <string name="ali3">3) In what ratio must tea at Rs. 62 per Kg be mixed with tea at Rs. 72 per Kg so that the mixture must be worth Rs. 64.50 per Kg?</string>
+    <string name="ali3ans">Answer: 3:1 </string>
+
+
+    <string name="ali4">4) Weights of two friends Ram and Shyam are in the ratio 4:5.
+
+If Rams weight is increased by 10% and total weight of Ram and Shyam become 82.8 kg, with an increases of 15%, by what percent did the weight of Shyam has to be increased?</string>
+    <string name="ali4ans">Answer: 19%</string>
+
+
+    <string name="ali5">5) The milk and water in two vessels A and B are in the ratio 4:3 and 2:3 respectively. In what ratio the liquids in both the vessels be mixed to obtain a new mixture in vessel c consisting half milk and half water? </string>
+    <string name="ali5ans">Answer: 7:5 </string>
+
+
+    <string name="ali6">6) One quantity of wheat at Rs 9.30 per Kg is mixed with another quality at a certain rate in the ratio 8:7. If the mixture so formed be worth Rs 10 per Kg, what is the rate per Kg of the second quality of wheat? </string>
+    <string name="ali6ans">Answer: 10.80</string>
+
+
+    <string name="ali7">7) A man travelled a distance of 90Km in 9 hours partly on foot at 8 kmph and partly on bicycle at 17 kmph.\nFind the distance travelled on foot.</string>
+    <string name="ali7ans">Answer: 56km</string>
+    <string name="ali7ex">Explanation:\n</string>
+
+    <string name="ali8">8) An alloy contains zinc, copper and tin in the ratio 2:3:1 and another contains copper, tin and lead in the ratio 5:4:3.If equal weights of both alloys are melted together to form a third alloy, then the weight of lead per kg in new alloy will be:</string>
+    <string name="ali8ans">Answer: 1/8kg</string>
+    <string name="ali8ex">Explanation: In the first alloy, ratio of Zinc, Copper and Tin is given as,\nZ:C:T=2:3:1\nSimilarly, In the second alloy, ratio of Copper, Tin and Lead is given as,\nC:T:L=5:4:3\nThe trick here is to arrive at a quantity where calculation becomes easy.\nTo do that, we take LCM of 6(=2+3+1), taken as 2 kg Zinc, 3 kg Copper and 1 Kg Lead),  and 12(=5+4+3), taken as 5 kg Copper, 4 kg Tin and 3 Kg Lead, which is 12.\nThus we assume that both the alloys are being mixed at 12 Kgs each.\nAlloys are mixed together to form third alloy. Then the ratio of content in it,\nZ:C:T:L\n=4:(6+5):(2+4):3\nWeight of the third alloy,\nT=12+12=24 Kg\nSo, weight of the Lead,\nL=3/24\n=1/8kg.</string>
+
+
+    <string name="ali9">9) How many kgs of Basmati rice costing Rs.42/kg should a shopkeeper mix with 25 kgs of ordinary rice costing Rs.24 per kg so that he makes a profit of 25% on selling the mixture at Rs.40/kg? </string>
+    <string name="ali9ans">Answer: Rs. </string>
+
+
+    <string name="ali10">10) How many litres of water should be added to a 30 litre mixture of milk and water containing milk and water in the ratio of 7 : 3 such that the resultant mixture has 40% water in it?</string>
+    <string name="ali10ans">Answer: 5 liters</string>
+    <string name="ali10ex">Explanation:\n 30 litres of the mixture has milk and water in the ratio 7 : 3. i.e. the solution has 21 litres of milk and 9 litres of water.\nWhen you add more water, the amount of milk in the mixture remains constant at 21 litres.\nIn the first case, before addition of further water, 21 litres of milk accounts for 70% by volume. After water is added, the new mixture contains 60% milk and 40% water.\nTherefore, the 21 litres of milk accounts for 60% by volume.</string>
+
+    <!--Questions on ages-->
+
+    <string name="ages1">1)  Ten years ago A was half of B in age. If the ratio of their present ages is 3 : 4, what will be the total of their present ages</string>
+    <string name="ages1ans">Answer: 35</string>
+    <string name="ages1ex">Explanation:\n Let age of A  10 years ago = x years.\nThen age of B 10 years ago = 2x years.\n(x + 10) / (2x+ lO) = 3/4\n=> x = 5.\nSo, the total of their present ages\n =(x + 10 + 2x + 10)\n= (3x + 20) = 35 years.</string>
+
+    <string name="ages2">2) The sum of the ages of a father and son is 45 years. Five years ago, the product of their ages was four times the fathers age at that time. The present age of father and son</string>
+    <string name="ages2ans">Answer: 36,9</string>
+    <string name="ages2ex">Explanation:\nLet sons age = x years.\n Then fathers age = (45 - x)years.\n(x—5)(45—x—5) = 4(45- x - 5)\n hence (x—5) = 4 so x = 9\nTheir ages are 36 years and 9 years.</string>
+
+    <string name="ages3">3) The ages of two persons differ by 16 years. 6 years ago, the elder one was 3 times as old as the younger one. What are their present ages of the elder person</string>
+    <string name="ages3ans">Answer: 30</string>
+    <string name="ages3ex">Explanation:\nLets take the present age of the elder person = x\nand the present age of the younger person = x – 16\n(x – 6) = 3(x-16-6)\n=> x – 6 = 3x – 66\n=> 2x = 60\n=> x = 60/2 = 30</string>
+
+    <string name="ages4">4)  Six years ago, the ratio of the ages of Kunal and Sagar was 6:5, Four years hence, the ratio of their ages will be 11:10. What is Sagar age at present</string>
+    <string name="ages4ans">Answer: 16 years</string>
+    <string name="ages4ex">Explanation:\nLet six years ago the age of Kunal and Sagar are 6x and 5x resp.\nthen,\n==> (6x+6)+4/(5x+6)+4=11/10\n10(6x+10)=11(5x+10)\n5x=10\nx=2\nSo Sagar age is (5x+6) = 16</string>
+
+    <string name="ages5">5) Tanyas grandfather was 8 times older to her 16 years ago. He would be 3 times of her age 8 years from now. What was ratio of ages of Tanya and her grandfather 8 years ago.</string>
+    <string name="ages5ans">Answer: 11:53</string>
+    <string name="ages5ex">Explanation:\nLet, Tanya age 16 years ago = x,\nGrandfathers age 16 years ago = 8x.\n8 years from now, 3(x+16+8) = (8x+16+8)\n=> x = 48/5\n8 years ago ratio was:\n(x+8/8x+8)=((48/5)+8)/(8*48/5+8)\n88/424\n=11/53</string>
+
+    <string name="ages6">6)  Ages of two persons differ by 16 years. If 6 year ago, the elder one be 3 times as old the younger one, find their present age</string>
+    <string name="ages6ans">Answer: 14,30</string>
+    <string name="ages6ex">Explanation:\nLet the age of younger person is x,\nThen elder person age is (x+16)\n=> 3(x-6)=(x+16-6) [6 years before]\n=> 3x-18 = x+10\n=> x = 14.So other person age is x + 16 = 30</string>
+
+    <string name="ages7">7) The ages of two persons differ by 20 years. If 5 years ago, the elder one be 5 times as old as the younger one, their present ages (in years) are respectively</string>
+    <string name="ages7ans">Answer: 30,10</string>
+    <string name="ages7ex">Explanation:\nLet their ages be x and (x + 20) years.\n5 (x - 5) = (x + 20 - 5) or 4x = 40 or x = 10.\nTheir present ages are 30 years and 10 years</string>
+
+    <string name="ages8">8)The age of father 10 years ago was thrice the age of his son. Ten years hence, fathers age will be twice that of his son. The ratio of their present ages is:</string>
+    <string name="ages8ans">Answer: 7:3</string>
+    <string name="ages8ex">Explanation:\nLet the ages of father and son 10 years ago be 3x and x years respectively.\nThen, (3x + 10) + 10 = 2[(x + 10) + 10]\n3x + 20 = 2x + 40\n x = 20.\nRequired ratio =\n (3x + 10) : (x + 10)\n = 70 : 30\n = 7 : 3</string>
+
+    <string name="ages9">9) A persons present age is two-fifth of the age of his mother. After 8 years, he will be one-half of the age of his mother. How old is the mother at present?</string>
+    <string name="ages9ans">Answer: 40 years</string>
+    <string name="ages9ex">Explanation:\nLet the mothers present age be x years.\nThen, the persons present age =\n(2/5*x)years\n(2/5*x)+8=1/2*(x+8)\n2(2x + 40) = 5(x + 8)\nx = 40.</string>
+
+    <string name="ages10">10) At present, the ratio between the ages of Arun and Deepak is 4 : 3. After 6 years, Aruns age will be 26 years. What is the age of Deepak at present ?</string>
+    <string name="ages10ans">Answer: 15 years</string>
+    <string name="ages10ex">Explanation:\nLet the present ages of Arun and Deepak be 4x years and 3x years respectively. Then,\n4x + 6 = 26 --->  4x = 20\nx = 5.\n Deepaks age = 3x = 15 years.</string>
+
+        <!--Boats and Streams-->
+
+
+    <string name="bs1">1) A boatman rows to a place 45 km distant and back in 20 hour. He finds that he can row 12 km with the stream in the same time as 4 km against the stream. Find the speed of the stream.</string>
+    <string name="bs1ans">Answer: 3Km/hr</string>
+    <string name="bs1ex">Explanation:\nRatio of time taken for up and down = 3:1\nOut of 20 hr he took 15 hr for up and 5 for down.\nSpeed up =(45/15)=3\nand down=(45/5)=9\nHence speed of stream\n(9-3)*1/2\n3km/hr</string>
+
+    <string name="bs2">2) A motorboat whose speed is 15 km/hr in still water goes 30km downstream and comes back in four and a half hours. The speed of the stream is:</string>
+    <string name="bs2ans">Answer: 5km/hr</string>
+    <string name="bs2ex">Explanation:\nLet the speed of the stream be s km/hr./nThen, upward speed = (15−s) km/hr\nand downward speed = (15+s) km/hr\nTherefore,\n(30/(15+s))+(30/(15-s))=4.5\nOn solving this equation we get, s = 5 km/hr</string>
+
+    <string name="bs3">3) Rahul can row a certain distance downstream in 6 hour and return the same distance in 9 hour. If the speed of Rahul in still water is 12 km/hr, Find the speed of the stream.</string>
+    <string name="bs3ans">Answer: 2.4km/hr</string>
+    <string name="bs3ex">Explanation:\nLet the speed of the stream be x km/hr\nThus, downward stream = (12+x)\nand upward stream = (12−x)\nsuppose the distance travelled be y, Given:\n(y/12+x)=6 and\n(y/12-x)=9\non solving this two equations we get:\nx=2.4km/hr</string>
+
+    <string name="bs4">4) A boat covers a distance of 30 km downstream in 2 hour while it takes 6 hour to cover the same distance upstream. What is the speed of the boat in km/hr</string>
+    <string name="bs4ans">Answer: 10</string>
+    <string name="bs4ex">Explanation:\nLet b and s be the speed of boat and stream respectively.\nAs per the given conditions:\n(30/b+s)=2------(1)\n(30/b-s)=6------(2)\nFrom eq (i) and (ii):\ns=5 and b = 10 km/hr</string>
+
+    <string name="bs5">5) The speed of a motor boat itself is 20 km/h and the rate of flow of the river is 4 km/h. Moving with the stream the boat went 120 km. What distance will the boat cover during the same time going against the stream?</string>
+    <string name="bs5ans">Answer: 80km</string>
+    <string name="bs5ex">Explanation:\nLet the distance to be covered by the boat when it is travelling against the stream be x.\nThe boat goes down the river at a speed of 20+4=24 km/h and up the river at a speed of 20–4=16 km/h.\nSince the time taken is same which is\n120/24=x/16\nTherefore x=80 km.</string>
+
+    <string name="bs6">6) Two boats, traveling at 5 and 10 kms per hour, head directly towards each other. They begin at a distance of 20 kms from each other. How far apart are they (in kms) one minute before they collide?</string>
+    <string name="bs6ans">Answer: 1/4</string>
+    <string name="bs6ex">Explanation:\nThe boats will be colliding after a time which is given by:\n=(20/5+10)\n4/3hr\n80 min.\nAfter this time of 80 minutes, boat (1) has covered:\n=(80*5/60)\n20/3km\nwhereas boat (2) has covered: \n=(80*10/60)\n40/3km\nAfter 79 minutes, distance covered by the first boat (D1):\n=(20/3-5/60)\nAfter 79 minutes, distance covered by the second boat (D2): \n=(40/3 - 10/60)\nSo the separation between the two boats: \n=20−(D1−D2)\n=1/4 km.</string>
+
+    <string name="bs7">7) A boat goes 30 km. upstream and 44 km. downstream in 10 hours. In 13 hours, it can go 40 km upstream and 55 km down-stream. The speed of the boat in still water is:</string>
+    <string name="bs7ans">Answer: 8 km/hr</string>
+    <string name="bs7ex">Explanation:\nIf B = speed of boat in still water\nR = speed of stream\nThen as per the question:\n(30/B-R) + (44/B-R) = 10 ----(1)\n(40/B-R)+(55/B-R) = 13 -----(2)\nOn solving both the equations we get: B = 8 km/hr</string>
+
+    <string name="bs8">8) A man can row 50 km upstream and 72 km downstream in 9 hours. He can also row 70 km upstream and 90 km downstream in 12 hours. Find the rate of current.</string>
+    <string name="bs8ans">Answer: 4 km/hr</string>
+    <string name="bs8ex">Explanation:\nLet x and y be the upstream and downstream speed respectively.\nHence\n50/x + 72/y = 9and\n70/x + 90/y = 12\nSolving for x and y we get x=10 km/hr and y=18 km/hr\nWe know that: \nSpeed of the stream\n=(1/2)*(downstream speed - upstream speed)\n=1/2 * (18-10)\n=4 km/hr</string>
+
+    <string name="bs9">9) The XYZ river flows at 12 km/hr. A boy who can row at 25/18 m/s in still water had to cross it in the least possible time. The distance covered by the boy is how many times the width of the river XYZ?</string>
+    <string name="bs9ans">Answer: 2.6</string>
+    <string name="bs9ex">Explanation:\nSpeed of the river XYZ=12 kmph\nSpeed of the boy = 5 kmph\nLet the time taken by the boy to cross the river in still water = T\nWidth of the river = 5T \nThe boy takes the least time when he is travelling directly across the river.\nBut the river current pushes him in a direction perpendicular to the flow, \nDistance travelling along the river = 12T\nEffective distance travelled by boy\n=(√((12T)^2+(5T)^2))\n13T\n==> Distance covered by the boy/width of the river\n13T/5T\n2.6</string>
+
+
+    <string name="bs10">10) A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?</string>
+    <string name="bs10ans">Answer: 1 hr 15 min</string>
+    <string name="bs10ex">Explanation:\nRate downstream =\n((1/10)*60)km/hr\n=6km/hr\nRate upstream = 2 km/hr.\nSpeed in still water\n=1/2(6+2)km/hr\n =4km/hr\nhence, required time\n=(5/4)hrs\n=1*1/4 hrs\n=1 hr 15 min.</string>
+
+
+    <!--Trains-->
+
+    <string name="train1">1) Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?</string>
+    <string name="train1ans">Answer: 10 min.</string>
+    <string name="train1ex">Explanation:\nDue to stoppages, it covers 9 km less.\nTime taken to cover 9 km\n = (9/54)*60\n=10min. </string>
+
+    <string name="train2">2) Two trains starting at the same time from 2 stations 200 km apart and going in opposite direction cross each other at a distance of 110 km from one of the stations. What is the ratio of their speeds?</string>
+    <string name="train2ans">Answer: 11:9</string>
+    <string name="train2ex">Explanation:\nIn same time, they cover 110 km and 90 km respectively.\nFor the same time speed and distance is inversely proportional.\nSo ratio of their speed = 110:90\n = 11:9</string>
+
+    <string name="train3">3) A train covers a distance in 50 min, if it runs at a speed of 48 kmph on an average. The speed at which the train must run to reduce the time of journey to 40 min will be.</string>
+    <string name="train3ans">Answer: 60kmph</string>
+    <string name="train3ex">Explanation:\nTime =50/60=5/6hr\nSpeed = 48 mph\nDistance = S×T=48*5/6\n=40km\nTime 40/60 hr\n new speed= 40*3/2 = 60kmph</string>
+
+    <string name="train4">4) A passenger train takes two hours less for a journey of 300 km if its speed is increased by 5 km/hr from its normal speed. The normal speed is:</string>
+    <string name="train4ans">Answer: 25 km/hr</string>
+    <string name="train4ex">Explanation:\nLet the normal speed be s km/hr\nThen new speed = (s+5) km/hr\n300/s - 2 = 300/s+5\n On solving this equation we get:\ns  = 25 km/hr</string>
+
+    <string name="train5">5) A train covers a distance in 100 min, if it runs at a speed of 48kmph on an average. The speed at which the train must run to reduce the time of journey to 40 min will be:</string>
+    <string name="train5ans">Answer: 120kmph</string>
+    <string name="train5ex">Explanation:\n Time = 100/60 = 5/3 hr \n speed = 48mph\n Distance =S×T\n=48*5/3\n=80km\nNow, as per the question, journey is to be reduced to 40 min.\nSo, new time,\n=40min= 40/60 hr\n=2/3 hr\nNew speed,\n=Distance/new time\n=(80/(2/3))\n80 * 3/2\n 120 kmph</string>
+
+    <string name="train6">6) A good train and a passenger train are running on parallel tracks in the same direction. The driver of the goods train observes that the passenger train coming from behind overtakes and crosses his train completely in 60 sec. Whereas a passenger on the passenger train marks that he crosses the goods train in 40 sec. If the speeds of the trains be in the ratio 1:2. Find the ratio of their lengths.</string>
+    <string name="train6ans">Answer: 2:1</string>
+    <string name="train6ex">Explanation:\nLet the speeds of the two trains be s and 2s m/s respectively.\nAlso, suppose that the lengths of the two trains are P and Q metres respectively.\nThen,\n(P+Q)/2s-s = 60 -----(1)\nand (P/2s-s)=40 -----(2)\nOn dividing these two equation we get:\nP+Q/P = 60/40\n P:Q=2:1</string>
+
+    <string name="train7">7) A train starts from Delhi at 6:00 am and reaches Ambala cantt. at 10am. The other train starts from Ambala cantt. at 8am and reached Delhi at 11:30 am, If the distance between Delhi and Ambala cantt is 200 km, then at what time did the two trains meet each other?</string>
+    <string name="train7ans">Answer: 8:56 AM</string>
+    <string name="train7ex">Explanation:\nAverage speed of train leaving Delhi = \n200/4 =50km/hr\nAverage speed of train leaving Ambala cantt.\n=200 * 2/7 =400/7\nBy the time the other train starts from Ambala cantt, the first train had travelled 100 km\nTherefore, the trains meet after:\n= 200-100/(50+400/7)\n=14/15 hr.\n 14/15 * 60 =56 min.\nHence they meet at 8:56 am</string>
+
+    <string name="train8">8) Two stations A and B are 110 km apart on a straight line. One train starts from A at 7 am and travel towards B at 20 km/hr speed. Another train starts from B at 8 am and travel towards A at 25 km/hr speed. At what time will they meet?</string>
+    <string name="train8ans">Answer: 10am</string>
+    <string name="train8ex">Explanation:\nIn 1 hour (7 am to 8 am) tarin from station A travels 20 km distance and reaches to C, (say).\nA-------C-------B\n7 am---------8 am\nAC  = 20 km, CB = 90 km\nDistance travelled in 1 hour = 20 km\nRemaining distance =110−20 = 90 km\nTime = Distance/Speed\n90/20+25 =2 hours\nSo, time = 8 am + 2 am = 10 am</string>
+
+    <string name="train9">9) A train 120 m in length passes a pole in 12sec and another train of length 100 m travelling in opposite direction in 10 sec. Find the speed of the second train in km per hour.</string>
+    <string name="train9ans">Answer: 43.2 kmph</string>
+    <string name="train9ex">Explanation:\nLet the speed of the train be x km/hr\nThen,\n120 = x * 5/18 * 12\nx=36kmph\nLet speed of the other train be y km/hr\nThen, relative speed in opposite direction: \n=(y+36) * 5/18\n so total distance:\n(120+100)=(y+36)* 5/18 *10\ny=43.2 km/hr</string>
+
+    <string name="train10">10) A train running at the speed of 20 m/s crosses a pole in 24 sec less than the time it requires to cross a platform thrice its length at the same speed. What is the length of the train?</string>
+    <string name="train10ans">Answer: 160 m</string>
+    <string name="train10ex">Explanation:\nLet the length of the train be x m.\nSo, the length of the platform = 3x m.\nTime taken in crossing the platform = 4x/20 sec\nTime taken in crossing the pole = x/20 sec.\n==> x/20 + 24 = 4x/20\nx=160m</string>
+
+
+    <!--Time and work-->
+
+</resources>
